@@ -56,10 +56,12 @@ $db = new Typecho_Db('Mysql', 'typecho_');
 $db->addServer(array (
   'host' => 'localhost',
   'user' => 'root',
-  'password' => 'ad_pwd_min',
+  'password' => 't4UkNxM3',
   'charset' => 'utf8',
   'port' => '3306',
-  'database' => 'winecat_typecho',
+  'database' => 'typecho',
 ), Typecho_Db::READ | Typecho_Db::WRITE);
 Typecho_Db::set($db);
+
 ?>
+
